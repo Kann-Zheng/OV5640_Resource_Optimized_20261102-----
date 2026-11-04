@@ -1,0 +1,457 @@
+[Info] [2026-11-2 15:05:23] /***************************Start Configuration***************************/
+[Info] [2026-11-2 15:05:23] Path: D:/pango/PDS_2022.2-SP6.4/bin
+[Info] [2026-11-2 15:05:23] Version: 146967
+[Info] [2026-11-2 15:05:24] Current Path: D:/FPGA_Camera_Project/OV5640_Vision_Submission_20261102/fpga
+[Info] [2026-11-2 15:05:24] PDS Dir Path: D:/FPGA_Camera_Project/OV5640_Vision_Submission_20261102/fpga
+[Info] [2026-11-2 15:05:26] Configuration is not connect with server. connect first then scan chain.
+[Debug] [2026-11-2 15:05:26] Client Local host name:HHnr
+[Debug] [2026-11-2 15:05:26] Client Local Address:172.16.1.21
+[Debug] [2026-11-2 15:05:26] Client Local Address:192.168.1.105
+[Debug] [2026-11-2 15:05:26] Client Local Address:192.168.88.1
+[Debug] [2026-11-2 15:05:26] Client Local Address:192.168.106.1
+[Debug] [2026-11-2 15:05:26] Server Address:127.0.0.1, Port:65420
+[Debug] [2026-11-2 15:05:26] Log::Print : Connecting to server[127.0.0.1 : 65420].
+[Info] [2026-11-2 15:05:26] Connect OK, Server: 127.0.0.1  Port: 65420
+[Debug] [2026-11-2 15:05:26] Finish.
+[Info] [2026-11-2 15:05:26] Connect server succeeded
+[Debug] [2026-11-2 15:05:26] Send RPC:1
+[Debug] [2026-11-2 15:05:26] Send cmd [check version information:40004] OK
+[Debug] [2026-11-2 15:05:26] Log::Print : Connect to server[127.0.0.1 : 65420] successfully.
+[Debug] [2026-11-2 15:05:28] Send RPC:2
+[Debug] [2026-11-2 15:05:28] Send cmd [get_cable_paras:40010] OK
+[Debug] [2026-11-2 15:05:28] Begin to send initialize chain cmd...
+[Debug] [2026-11-2 15:05:28] Send RPC:3
+[Debug] [2026-11-2 15:05:28] Send cmd [Open config cable:20001] OK
+[Debug] [2026-11-2 15:05:28] End to send initialize chain cmd.
+[Debug] [2026-11-2 15:05:28] COMMAND[check version information] execute successfully, takes 2.2 secs.
+[Debug] [2026-11-2 15:05:28] Log::Print : COMMAND[check version information] execute successfully, takes 2.2 secs.
+[Debug] [2026-11-2 15:05:31] COMMAND[get_cable_paras] execute successfully, takes 2.2 secs.
+[Debug] [2026-11-2 15:05:31] Log::Print : The cable List : 
+Cable index 0:USB Cable II/fffffffffffffffe 
+
+[Debug] [2026-11-2 15:05:31] Log::Print : COMMAND[get_cable_paras] execute successfully, takes 2.2 secs.
+[Debug] [2026-11-2 15:05:32] begin the exec of open cable cmd...
+[Debug] [2026-11-2 15:05:32] Begin to deal with chain from server...
+[Debug] [2026-11-2 15:05:32] Begin to set user chain...
+[Debug] [2026-11-2 15:05:32] End to set user chain.
+[Debug] [2026-11-2 15:05:32] Begin to update graphic item and tree item ...
+[Debug] [2026-11-2 15:05:32] End to update graphic item and tree item ...
+[Debug] [2026-11-2 15:05:32] Log::Print : PANGO USB CABLE II cable driver: D2XX DLL
+[Debug] [2026-11-2 15:05:32] Log::Print : PG2L100H
+[Debug] [2026-11-2 15:05:32] Log::Print : This device configure situation (done bit): 0
+[Info] [2026-11-2 15:06:46] set OpenLastPath: D:/FPGA_Camera_Project/OV5640_Vision_Submission_20261102/firmware/hdmi_ddr_ov5640_top.sbit
+[Debug] [2026-11-2 15:06:46] begin to get device info from CFG file...
+[Debug] [2026-11-2 15:06:46] end to get device info from CFG file...
+[Debug] [2026-11-2 15:06:46] Begin to update graphic item and tree item ...
+[Debug] [2026-11-2 15:06:46] End to update graphic item and tree item ...
+[Debug] [2026-11-2 15:06:46] Begin to update graphic item and tree item ...
+[Debug] [2026-11-2 15:06:46] End to update graphic item and tree item ...
+[Debug] [2026-11-2 15:06:46] End to deal wiht chain from server.
+[Debug] [2026-11-2 15:06:46] end the exec of open cable cmd.
+[Debug] [2026-11-2 15:06:46] COMMAND[Open config cable] execute successfully, takes 77.6 secs.
+[Debug] [2026-11-2 15:06:46] Log::Print : COMMAND[Open config cable] execute successfully, takes 77.6 secs.
+[Debug] [2026-11-2 15:06:47] Begin to send programming cmd...
+[Debug] [2026-11-2 15:06:47] Send RPC:4
+[Debug] [2026-11-2 15:06:47] Begin to send program data.
+[Debug] [2026-11-2 15:06:47] End to send program data.
+[Debug] [2026-11-2 15:06:47] Send cmd [Program:20002] OK
+[Debug] [2026-11-2 15:06:48] The value of Progress is 6
+[Debug] [2026-11-2 15:06:48] The value of Progress is 10
+[Debug] [2026-11-2 15:06:48] The value of Progress is 15
+[Debug] [2026-11-2 15:06:48] The value of Progress is 20
+[Debug] [2026-11-2 15:06:48] The value of Progress is 25
+[Debug] [2026-11-2 15:06:49] The value of Progress is 30
+[Debug] [2026-11-2 15:06:49] The value of Progress is 35
+[Debug] [2026-11-2 15:06:49] The value of Progress is 40
+[Debug] [2026-11-2 15:06:49] The value of Progress is 45
+[Debug] [2026-11-2 15:06:49] The value of Progress is 50
+[Debug] [2026-11-2 15:06:49] The value of Progress is 55
+[Debug] [2026-11-2 15:06:50] The value of Progress is 60
+[Debug] [2026-11-2 15:06:50] The value of Progress is 65
+[Debug] [2026-11-2 15:06:50] The value of Progress is 70
+[Debug] [2026-11-2 15:06:50] The value of Progress is 75
+[Debug] [2026-11-2 15:06:50] The value of Progress is 80
+[Debug] [2026-11-2 15:06:50] The value of Progress is 85
+[Debug] [2026-11-2 15:06:51] The value of Progress is 90
+[Debug] [2026-11-2 15:06:51] The value of Progress is 95
+[Debug] [2026-11-2 15:06:51] The value of Progress is 100
+[Debug] [2026-11-2 15:06:51] COMMAND[Program] execute successfully, takes 3.8 secs.
+[Debug] [2026-11-2 15:06:51] End to send programming cmd.
+[Debug] [2026-11-2 15:06:51] Log::Print : The done bit is 1
+[Debug] [2026-11-2 15:06:51] Log::Print : COMMAND[Program] execute successfully, takes 3.8 secs.
+[Debug] [2026-11-2 15:09:44] Begin to Converte file.
+[Debug] [2026-11-2 15:09:52] begin to parse sfc file.
+[Debug] [2026-11-2 15:09:52] begin to get device info from CFG file...
+[Debug] [2026-11-2 15:09:52] end to get device info from CFG file...
+[Debug] [2026-11-2 15:09:52] begin to get device info from CFG file...
+[Debug] [2026-11-2 15:09:52] end to get device info from CFG file...
+[Debug] [2026-11-2 15:09:52] end to parse sfc file.
+[Debug] [2026-11-2 15:09:52] Log::Print : The Start Address of bit file D:/FPGA_Camera_Project/OV5640_Vision_Submission_20261102/firmware/hdmi_ddr_ov5640_top.sbit: 0x0
+[Debug] [2026-11-2 15:09:53] End to Converte file.
+[Debug] [2026-11-2 15:09:56] Begin to send reset fpga cmd...
+[Debug] [2026-11-2 15:09:56] Send RPC:5
+[Debug] [2026-11-2 15:09:56] Send cmd [Reset FPGA:20025] OK
+[Debug] [2026-11-2 15:09:56] End to send reset fpga cmd.
+[Debug] [2026-11-2 15:09:56] COMMAND[Reset FPGA] execute successfully, takes 0.7 secs.
+[Debug] [2026-11-2 15:09:56] Log::Print : COMMAND[Reset FPGA] execute successfully, takes 0.7 secs.
+[Debug] [2026-11-2 15:09:59] Begin to send scan outer flash cmd...
+[Debug] [2026-11-2 15:09:59] Send RPC:6
+[Debug] [2026-11-2 15:09:59] Send cmd [Scan Outer SPI Flash:20300] OK
+[Debug] [2026-11-2 15:09:59] End to send scan outer flash cmd.
+[Debug] [2026-11-2 15:09:59] begin to exec scan jtag flash cmd...
+[Debug] [2026-11-2 15:09:59] Begin to initialize JtagFlash for selected FPGA Device...
+[Debug] [2026-11-2 15:09:59] Begin to update graphic item and tree item ...
+[Debug] [2026-11-2 15:09:59] End to update graphic item and tree item ...
+[Info] [2026-11-2 15:10:01] set OpenLastPath: D:/FPGA_Camera_Project/OV5640_Vision_Submission_20261102/firmware/hdmi_ddr_ov5640_top.sfc
+[Debug] [2026-11-2 15:10:01] begin to check SFC File and Flash Device Read Mode.
+[Debug] [2026-11-2 15:10:01] end to check SFC File and Flash Device Read Mode.
+[Debug] [2026-11-2 15:10:01] Begin to update graphic item and tree item ...
+[Debug] [2026-11-2 15:10:01] End to update graphic item and tree item ...
+[Debug] [2026-11-2 15:10:01] End to initialize OuterFlash for selected FPGA Device...
+[Debug] [2026-11-2 15:10:01] end to exec scan jtag flash cmd...
+[Debug] [2026-11-2 15:10:01] COMMAND[Scan Outer SPI Flash] execute successfully, takes 2.4 secs.
+[Debug] [2026-11-2 15:10:01] Log::Print : COMMAND[Scan Outer SPI Flash] execute successfully, takes 2.4 secs.
+[Debug] [2026-11-2 15:10:02] begin to send promgram jtag flash cmd.
+[Debug] [2026-11-2 15:10:02] begin to send jtag flash erase cmd
+[Debug] [2026-11-2 15:10:02] Send RPC:7
+[Debug] [2026-11-2 15:10:02] Begin to send embed flash erase data.
+[Debug] [2026-11-2 15:10:02] Begin to send flash erase data.
+[Debug] [2026-11-2 15:10:02] End to send flash erase data.
+[Debug] [2026-11-2 15:10:02] End to send embed flash erase data.
+[Debug] [2026-11-2 15:10:02] Send cmd [Erase Outer Flash:20302] OK
+[Debug] [2026-11-2 15:10:02] Log::Print : The start address of operating flash is 0x0.
+[Debug] [2026-11-2 15:10:03] The value of Progress is 1
+[Debug] [2026-11-2 15:10:04] The value of Progress is 6
+[Debug] [2026-11-2 15:10:04] The value of Progress is 10
+[Debug] [2026-11-2 15:10:05] The value of Progress is 15
+[Debug] [2026-11-2 15:10:06] The value of Progress is 20
+[Debug] [2026-11-2 15:10:06] The value of Progress is 25
+[Debug] [2026-11-2 15:10:07] The value of Progress is 31
+[Debug] [2026-11-2 15:10:08] The value of Progress is 36
+[Debug] [2026-11-2 15:10:08] The value of Progress is 41
+[Debug] [2026-11-2 15:10:09] The value of Progress is 46
+[Debug] [2026-11-2 15:10:10] The value of Progress is 50
+[Debug] [2026-11-2 15:10:10] The value of Progress is 55
+[Debug] [2026-11-2 15:10:11] The value of Progress is 60
+[Debug] [2026-11-2 15:10:12] The value of Progress is 65
+[Debug] [2026-11-2 15:10:12] The value of Progress is 70
+[Debug] [2026-11-2 15:10:13] The value of Progress is 75
+[Debug] [2026-11-2 15:10:14] The value of Progress is 81
+[Debug] [2026-11-2 15:10:14] The value of Progress is 86
+[Debug] [2026-11-2 15:10:15] The value of Progress is 91
+[Debug] [2026-11-2 15:10:15] The value of Progress is 96
+[Debug] [2026-11-2 15:10:16] The value of Progress is 100
+[Debug] [2026-11-2 15:10:16] COMMAND[Erase Outer Flash] execute finish, takes 13.5 secs.
+[Debug] [2026-11-2 15:10:16] end to send jtag flash erase cmd.
+[Debug] [2026-11-2 15:10:16] Send RPC:8
+[Debug] [2026-11-2 15:10:16] Begin to send jtag flash program data.
+[Debug] [2026-11-2 15:10:16] Begin to send flash program data.
+[Debug] [2026-11-2 15:10:16] End to send flash program data.
+[Debug] [2026-11-2 15:10:16] End to send embed flash program data.
+[Debug] [2026-11-2 15:10:16] Send cmd [Program Outer Flash:20301] OK
+[Debug] [2026-11-2 15:10:16] Log::Print : COMMAND[Erase Outer Flash] execute finish, takes 13.5 secs.
+[Debug] [2026-11-2 15:10:16] Log::Print : The start address of operating flash is 0x0.
+[Debug] [2026-11-2 15:10:18] The value of Progress is 1
+[Debug] [2026-11-2 15:10:22] The value of Progress is 6
+[Debug] [2026-11-2 15:10:24] The value of Progress is 10
+[Debug] [2026-11-2 15:10:27] The value of Progress is 15
+[Debug] [2026-11-2 15:10:30] The value of Progress is 20
+[Debug] [2026-11-2 15:10:33] The value of Progress is 25
+[Debug] [2026-11-2 15:10:36] The value of Progress is 30
+[Debug] [2026-11-2 15:10:39] The value of Progress is 35
+[Debug] [2026-11-2 15:10:42] The value of Progress is 40
+[Debug] [2026-11-2 15:10:45] The value of Progress is 45
+[Debug] [2026-11-2 15:10:48] The value of Progress is 50
+[Debug] [2026-11-2 15:10:51] The value of Progress is 55
+[Debug] [2026-11-2 15:10:54] The value of Progress is 60
+[Debug] [2026-11-2 15:10:57] The value of Progress is 65
+[Debug] [2026-11-2 15:11:00] The value of Progress is 70
+[Debug] [2026-11-2 15:11:03] The value of Progress is 75
+[Debug] [2026-11-2 15:11:06] The value of Progress is 80
+[Debug] [2026-11-2 15:11:09] The value of Progress is 85
+[Debug] [2026-11-2 15:11:12] The value of Progress is 90
+[Debug] [2026-11-2 15:11:15] The value of Progress is 95
+[Debug] [2026-11-2 15:11:18] The value of Progress is 100
+[Debug] [2026-11-2 15:11:19] COMMAND[Program Outer Flash] execute finish, takes 62.8 secs.
+[Debug] [2026-11-2 15:11:19] begin to send jtag flash verify cmd
+[Debug] [2026-11-2 15:11:19] Send RPC:9
+[Debug] [2026-11-2 15:11:19] Begin to send embed flash verify data.
+[Debug] [2026-11-2 15:11:19] Begin to send flash verify data.
+[Debug] [2026-11-2 15:11:19] End to send flash verify data.
+[Debug] [2026-11-2 15:11:19] End to send embed flash verify data.
+[Debug] [2026-11-2 15:11:19] Send cmd [Verify Outer Flash:20303] OK
+[Debug] [2026-11-2 15:11:19] Log::Print : COMMAND[Program Outer Flash] execute finish, takes 62.8 secs.
+[Debug] [2026-11-2 15:11:19] Log::Print : The start address of operating flash is 0x0.
+[Debug] [2026-11-2 15:11:19] The value of Progress is 1
+[Debug] [2026-11-2 15:11:19] The value of Progress is 6
+[Debug] [2026-11-2 15:11:20] The value of Progress is 10
+[Debug] [2026-11-2 15:11:20] The value of Progress is 15
+[Debug] [2026-11-2 15:11:20] The value of Progress is 20
+[Debug] [2026-11-2 15:11:20] The value of Progress is 25
+[Debug] [2026-11-2 15:11:20] The value of Progress is 30
+[Debug] [2026-11-2 15:11:21] The value of Progress is 35
+[Debug] [2026-11-2 15:11:21] The value of Progress is 40
+[Debug] [2026-11-2 15:11:21] The value of Progress is 45
+[Debug] [2026-11-2 15:11:21] The value of Progress is 50
+[Debug] [2026-11-2 15:11:21] The value of Progress is 55
+[Debug] [2026-11-2 15:11:22] The value of Progress is 60
+[Debug] [2026-11-2 15:11:22] The value of Progress is 65
+[Debug] [2026-11-2 15:11:22] The value of Progress is 70
+[Debug] [2026-11-2 15:11:22] The value of Progress is 75
+[Debug] [2026-11-2 15:11:22] The value of Progress is 80
+[Debug] [2026-11-2 15:11:23] The value of Progress is 85
+[Debug] [2026-11-2 15:11:23] The value of Progress is 90
+[Debug] [2026-11-2 15:11:23] The value of Progress is 95
+[Debug] [2026-11-2 15:11:23] The value of Progress is 100
+[Debug] [2026-11-2 15:11:23] COMMAND[Verify Outer Flash] execute successfully, takes 4.6 secs.
+[Debug] [2026-11-2 15:11:23] end to send jtag flash verify cmd
+[Debug] [2026-11-2 15:11:23] end to send jtag flash program cmd.
+[Debug] [2026-11-2 15:11:23] Log::Print : COMMAND[Verify Outer Flash] execute successfully, takes 4.6 secs.
+[Debug] [2026-11-2 15:11:27] Begin to send programming cmd...
+[Debug] [2026-11-2 15:11:27] Send RPC:10
+[Debug] [2026-11-2 15:11:27] Begin to send program data.
+[Debug] [2026-11-2 15:11:27] End to send program data.
+[Debug] [2026-11-2 15:11:27] Send cmd [Program:20002] OK
+[Debug] [2026-11-2 15:11:28] The value of Progress is 6
+[Debug] [2026-11-2 15:11:28] The value of Progress is 10
+[Debug] [2026-11-2 15:11:28] The value of Progress is 15
+[Debug] [2026-11-2 15:11:29] The value of Progress is 20
+[Debug] [2026-11-2 15:11:29] The value of Progress is 25
+[Debug] [2026-11-2 15:11:29] The value of Progress is 30
+[Debug] [2026-11-2 15:11:29] The value of Progress is 35
+[Debug] [2026-11-2 15:11:29] The value of Progress is 40
+[Debug] [2026-11-2 15:11:29] The value of Progress is 45
+[Debug] [2026-11-2 15:11:29] The value of Progress is 50
+[Debug] [2026-11-2 15:11:30] The value of Progress is 55
+[Debug] [2026-11-2 15:11:30] The value of Progress is 60
+[Debug] [2026-11-2 15:11:30] The value of Progress is 65
+[Debug] [2026-11-2 15:11:30] The value of Progress is 70
+[Debug] [2026-11-2 15:11:30] The value of Progress is 75
+[Debug] [2026-11-2 15:11:30] The value of Progress is 80
+[Debug] [2026-11-2 15:11:31] The value of Progress is 85
+[Debug] [2026-11-2 15:11:31] The value of Progress is 90
+[Debug] [2026-11-2 15:11:31] The value of Progress is 95
+[Debug] [2026-11-2 15:11:31] The value of Progress is 100
+[Debug] [2026-11-2 15:11:31] COMMAND[Program] execute successfully, takes 3.8 secs.
+[Debug] [2026-11-2 15:11:31] End to send programming cmd.
+[Debug] [2026-11-2 15:11:31] Log::Print : The done bit is 1
+[Debug] [2026-11-2 15:11:31] Log::Print : COMMAND[Program] execute successfully, takes 3.8 secs.
+[Info] [2026-11-2 15:26:51] /***************************End Configration***************************/
+[Info] [2026-11-2 15:27:39] /***************************Start Configuration***************************/
+[Info] [2026-11-2 15:27:39] Path: D:/pango/PDS_2022.2-SP6.4/bin
+[Info] [2026-11-2 15:27:39] Version: 146967
+[Info] [2026-11-2 15:27:40] Current Path: D:/FPGA_Camera_Project/OV5640_Vision_Submission_20261102/fpga
+[Info] [2026-11-2 15:27:40] PDS Dir Path: D:/FPGA_Camera_Project/OV5640_Vision_Submission_20261102/fpga
+[Info] [2026-11-2 15:27:42] Configuration is not connect with server. connect first then scan chain.
+[Debug] [2026-11-2 15:27:42] Client Local host name:HHnr
+[Debug] [2026-11-2 15:27:42] Client Local Address:172.16.1.21
+[Debug] [2026-11-2 15:27:42] Client Local Address:192.168.1.105
+[Debug] [2026-11-2 15:27:42] Client Local Address:192.168.88.1
+[Debug] [2026-11-2 15:27:42] Client Local Address:192.168.106.1
+[Debug] [2026-11-2 15:27:42] Server Address:127.0.0.1, Port:65420
+[Debug] [2026-11-2 15:27:42] Log::Print : Connecting to server[127.0.0.1 : 65420].
+[Info] [2026-11-2 15:27:43] Connect OK, Server: 127.0.0.1  Port: 65420
+[Debug] [2026-11-2 15:27:43] Finish.
+[Info] [2026-11-2 15:27:43] Connect server succeeded
+[Debug] [2026-11-2 15:27:43] Send RPC:1
+[Debug] [2026-11-2 15:27:43] Send cmd [check version information:40004] OK
+[Debug] [2026-11-2 15:27:43] Log::Print : Connect to server[127.0.0.1 : 65420] successfully.
+[Debug] [2026-11-2 15:27:43] Send RPC:2
+[Debug] [2026-11-2 15:27:43] Send cmd [get_cable_paras:40010] OK
+[Debug] [2026-11-2 15:27:43] Begin to send initialize chain cmd...
+[Debug] [2026-11-2 15:27:43] Send RPC:3
+[Debug] [2026-11-2 15:27:43] Send cmd [Open config cable:20001] OK
+[Debug] [2026-11-2 15:27:43] End to send initialize chain cmd.
+[Debug] [2026-11-2 15:27:43] COMMAND[check version information] execute successfully, takes 0.8 secs.
+[Debug] [2026-11-2 15:27:43] Log::Print : COMMAND[check version information] execute successfully, takes 0.8 secs.
+[Debug] [2026-11-2 15:27:45] COMMAND[get_cable_paras] execute successfully, takes 1.4 secs.
+[Debug] [2026-11-2 15:27:45] Log::Print : The cable List : 
+Cable index 0:USB Cable II/fffffffffffffffe 
+
+[Debug] [2026-11-2 15:27:45] Log::Print : COMMAND[get_cable_paras] execute successfully, takes 1.4 secs.
+[Debug] [2026-11-2 15:27:45] begin the exec of open cable cmd...
+[Debug] [2026-11-2 15:27:45] Begin to deal with chain from server...
+[Debug] [2026-11-2 15:27:45] Begin to set user chain...
+[Debug] [2026-11-2 15:27:45] End to set user chain.
+[Debug] [2026-11-2 15:27:45] Begin to update graphic item and tree item ...
+[Debug] [2026-11-2 15:27:45] End to update graphic item and tree item ...
+[Debug] [2026-11-2 15:27:45] Log::Print : PANGO USB CABLE II cable driver: D2XX DLL
+[Debug] [2026-11-2 15:27:45] Log::Print : PG2L100H
+[Debug] [2026-11-2 15:27:45] Log::Print : This device configure situation (done bit): 1
+[Info] [2026-11-2 15:27:52] set OpenLastPath: D:/FPGA_Camera_Project/OV5640_Vision_Submission_20261102/firmware/hdmi_ddr_ov5640_top.sbit
+[Debug] [2026-11-2 15:27:52] begin to get device info from CFG file...
+[Debug] [2026-11-2 15:27:52] end to get device info from CFG file...
+[Debug] [2026-11-2 15:27:52] Begin to update graphic item and tree item ...
+[Debug] [2026-11-2 15:27:52] End to update graphic item and tree item ...
+[Debug] [2026-11-2 15:27:52] Begin to update graphic item and tree item ...
+[Debug] [2026-11-2 15:27:52] End to update graphic item and tree item ...
+[Debug] [2026-11-2 15:27:52] End to deal wiht chain from server.
+[Debug] [2026-11-2 15:27:52] end the exec of open cable cmd.
+[Debug] [2026-11-2 15:27:52] COMMAND[Open config cable] execute successfully, takes 8.4 secs.
+[Debug] [2026-11-2 15:27:52] Log::Print : COMMAND[Open config cable] execute successfully, takes 8.4 secs.
+[Debug] [2026-11-2 15:27:53] Begin to send programming cmd...
+[Debug] [2026-11-2 15:27:53] Send RPC:4
+[Debug] [2026-11-2 15:27:53] Begin to send program data.
+[Debug] [2026-11-2 15:27:53] End to send program data.
+[Debug] [2026-11-2 15:27:53] Send cmd [Program:20002] OK
+[Debug] [2026-11-2 15:27:54] The value of Progress is 6
+[Debug] [2026-11-2 15:27:54] The value of Progress is 10
+[Debug] [2026-11-2 15:27:54] The value of Progress is 15
+[Debug] [2026-11-2 15:27:54] The value of Progress is 20
+[Debug] [2026-11-2 15:27:54] The value of Progress is 25
+[Debug] [2026-11-2 15:27:54] The value of Progress is 30
+[Debug] [2026-11-2 15:27:55] The value of Progress is 35
+[Debug] [2026-11-2 15:27:55] The value of Progress is 40
+[Debug] [2026-11-2 15:27:55] The value of Progress is 45
+[Debug] [2026-11-2 15:27:55] The value of Progress is 50
+[Debug] [2026-11-2 15:27:55] The value of Progress is 55
+[Debug] [2026-11-2 15:27:55] The value of Progress is 60
+[Debug] [2026-11-2 15:27:55] The value of Progress is 65
+[Debug] [2026-11-2 15:27:56] The value of Progress is 70
+[Debug] [2026-11-2 15:27:56] The value of Progress is 75
+[Debug] [2026-11-2 15:27:56] The value of Progress is 80
+[Debug] [2026-11-2 15:27:56] The value of Progress is 85
+[Debug] [2026-11-2 15:27:56] The value of Progress is 90
+[Debug] [2026-11-2 15:27:56] The value of Progress is 95
+[Debug] [2026-11-2 15:27:57] The value of Progress is 100
+[Debug] [2026-11-2 15:27:57] COMMAND[Program] execute successfully, takes 3.8 secs.
+[Debug] [2026-11-2 15:27:57] End to send programming cmd.
+[Debug] [2026-11-2 15:27:57] Log::Print : The done bit is 1
+[Debug] [2026-11-2 15:27:57] Log::Print : COMMAND[Program] execute successfully, takes 3.8 secs.
+[Debug] [2026-11-2 15:28:07] Begin to send initialize chain cmd...
+[Debug] [2026-11-2 15:28:07] Send RPC:5
+[Debug] [2026-11-2 15:28:07] Send cmd [Open config cable:20001] OK
+[Debug] [2026-11-2 15:28:07] End to send initialize chain cmd.
+[Debug] [2026-11-2 15:28:08] begin the exec of open cable cmd...
+[Debug] [2026-11-2 15:28:08] Begin to deal with chain from server...
+[Debug] [2026-11-2 15:28:08] Begin to set user chain...
+[Debug] [2026-11-2 15:28:08] End to set user chain.
+[Debug] [2026-11-2 15:28:08] Begin to update graphic item and tree item ...
+[Debug] [2026-11-2 15:28:08] End to update graphic item and tree item ...
+[Debug] [2026-11-2 15:28:08] Log::Print : PANGO USB CABLE II cable driver: D2XX DLL
+[Debug] [2026-11-2 15:28:08] Log::Print : PG2L100H
+[Debug] [2026-11-2 15:28:08] Log::Print : This device configure situation (done bit): 1
+[Debug] [2026-11-2 15:28:09] selected file name is empty and ignore.
+[Debug] [2026-11-2 15:28:09] Begin to update graphic item and tree item ...
+[Debug] [2026-11-2 15:28:09] End to update graphic item and tree item ...
+[Debug] [2026-11-2 15:28:09] End to deal wiht chain from server.
+[Debug] [2026-11-2 15:28:09] end the exec of open cable cmd.
+[Debug] [2026-11-2 15:28:09] COMMAND[Open config cable] execute successfully, takes 1.8 secs.
+[Debug] [2026-11-2 15:28:09] Log::Print : COMMAND[Open config cable] execute successfully, takes 1.8 secs.
+[Debug] [2026-11-2 16:41:15] Begin to send initialize chain cmd...
+[Debug] [2026-11-2 16:41:15] Send RPC:6
+[Debug] [2026-11-2 16:41:15] Send cmd [Open config cable:20001] OK
+[Debug] [2026-11-2 16:41:15] End to send initialize chain cmd.
+[Debug] [2026-11-2 16:41:16] begin the exec of open cable cmd...
+[Debug] [2026-11-2 16:41:16] Begin to deal with chain from server...
+[Debug] [2026-11-2 16:41:16] Begin to set user chain...
+[Debug] [2026-11-2 16:41:16] End to set user chain.
+[Debug] [2026-11-2 16:41:16] Begin to update graphic item and tree item ...
+[Debug] [2026-11-2 16:41:16] End to update graphic item and tree item ...
+[Debug] [2026-11-2 16:41:16] Log::Print : PANGO USB CABLE II cable driver: D2XX DLL
+[Debug] [2026-11-2 16:41:16] Log::Print : PG2L100H
+[Debug] [2026-11-2 16:41:16] Log::Print : This device configure situation (done bit): 1
+[Info] [2026-11-2 16:41:26] set OpenLastPath: D:/FPGA_Camera_Project/OV5640_Vision_Submission_20261102/firmware/hdmi_ddr_ov5640_top.sbit
+[Debug] [2026-11-2 16:41:26] begin to get device info from CFG file...
+[Debug] [2026-11-2 16:41:26] end to get device info from CFG file...
+[Debug] [2026-11-2 16:41:26] Begin to update graphic item and tree item ...
+[Debug] [2026-11-2 16:41:26] End to update graphic item and tree item ...
+[Debug] [2026-11-2 16:41:26] Begin to update graphic item and tree item ...
+[Debug] [2026-11-2 16:41:26] End to update graphic item and tree item ...
+[Debug] [2026-11-2 16:41:26] End to deal wiht chain from server.
+[Debug] [2026-11-2 16:41:26] end the exec of open cable cmd.
+[Debug] [2026-11-2 16:41:26] COMMAND[Open config cable] execute successfully, takes 10.6 secs.
+[Debug] [2026-11-2 16:41:26] Log::Print : COMMAND[Open config cable] execute successfully, takes 10.6 secs.
+[Debug] [2026-11-2 16:41:34] Begin to send programming cmd...
+[Debug] [2026-11-2 16:41:34] Send RPC:7
+[Debug] [2026-11-2 16:41:34] Begin to send program data.
+[Debug] [2026-11-2 16:41:34] End to send program data.
+[Debug] [2026-11-2 16:41:34] Send cmd [Program:20002] OK
+[Debug] [2026-11-2 16:41:35] The value of Progress is 6
+[Debug] [2026-11-2 16:41:35] The value of Progress is 10
+[Debug] [2026-11-2 16:41:35] The value of Progress is 15
+[Debug] [2026-11-2 16:41:35] The value of Progress is 20
+[Debug] [2026-11-2 16:41:35] The value of Progress is 25
+[Debug] [2026-11-2 16:41:35] The value of Progress is 30
+[Debug] [2026-11-2 16:41:35] The value of Progress is 35
+[Debug] [2026-11-2 16:41:36] The value of Progress is 40
+[Debug] [2026-11-2 16:41:36] The value of Progress is 45
+[Debug] [2026-11-2 16:41:36] The value of Progress is 50
+[Debug] [2026-11-2 16:41:36] The value of Progress is 55
+[Debug] [2026-11-2 16:41:36] The value of Progress is 60
+[Debug] [2026-11-2 16:41:36] The value of Progress is 65
+[Debug] [2026-11-2 16:41:37] The value of Progress is 70
+[Debug] [2026-11-2 16:41:37] The value of Progress is 75
+[Debug] [2026-11-2 16:41:37] The value of Progress is 80
+[Debug] [2026-11-2 16:41:37] The value of Progress is 85
+[Debug] [2026-11-2 16:41:37] The value of Progress is 90
+[Debug] [2026-11-2 16:41:37] The value of Progress is 95
+[Debug] [2026-11-2 16:41:38] The value of Progress is 100
+[Debug] [2026-11-2 16:41:38] COMMAND[Program] execute successfully, takes 3.9 secs.
+[Debug] [2026-11-2 16:41:38] End to send programming cmd.
+[Debug] [2026-11-2 16:41:38] Log::Print : The done bit is 1
+[Debug] [2026-11-2 16:41:38] Log::Print : COMMAND[Program] execute successfully, takes 3.9 secs.
+[Debug] [2026-11-2 16:41:54] Begin to send initialize chain cmd...
+[Debug] [2026-11-2 16:41:54] Send RPC:8
+[Debug] [2026-11-2 16:41:54] Send cmd [Open config cable:20001] OK
+[Debug] [2026-11-2 16:41:54] End to send initialize chain cmd.
+[Debug] [2026-11-2 16:41:55] begin the exec of open cable cmd...
+[Debug] [2026-11-2 16:41:55] Begin to deal with chain from server...
+[Debug] [2026-11-2 16:41:55] Begin to set user chain...
+[Debug] [2026-11-2 16:41:55] End to set user chain.
+[Debug] [2026-11-2 16:41:55] Begin to update graphic item and tree item ...
+[Debug] [2026-11-2 16:41:55] End to update graphic item and tree item ...
+[Debug] [2026-11-2 16:41:55] Log::Print : PANGO USB CABLE II cable driver: D2XX DLL
+[Debug] [2026-11-2 16:41:55] Log::Print : PG2L100H
+[Debug] [2026-11-2 16:41:55] Log::Print : This device configure situation (done bit): 1
+[Info] [2026-11-2 16:42:25] set OpenLastPath: D:/FPGA_Camera_Project/OV5640_Vision_Workbench/firmware/telemetry_verified/hdmi_ddr_ov5640_top.sbit
+[Debug] [2026-11-2 16:42:25] begin to get device info from CFG file...
+[Debug] [2026-11-2 16:42:25] end to get device info from CFG file...
+[Debug] [2026-11-2 16:42:25] Begin to update graphic item and tree item ...
+[Debug] [2026-11-2 16:42:25] End to update graphic item and tree item ...
+[Debug] [2026-11-2 16:42:25] Begin to update graphic item and tree item ...
+[Debug] [2026-11-2 16:42:25] End to update graphic item and tree item ...
+[Debug] [2026-11-2 16:42:25] End to deal wiht chain from server.
+[Debug] [2026-11-2 16:42:25] end the exec of open cable cmd.
+[Debug] [2026-11-2 16:42:25] COMMAND[Open config cable] execute successfully, takes 30.5 secs.
+[Debug] [2026-11-2 16:42:25] Log::Print : COMMAND[Open config cable] execute successfully, takes 30.5 secs.
+[Debug] [2026-11-2 16:42:26] Begin to send programming cmd...
+[Debug] [2026-11-2 16:42:26] Send RPC:9
+[Debug] [2026-11-2 16:42:26] Begin to send program data.
+[Debug] [2026-11-2 16:42:26] End to send program data.
+[Debug] [2026-11-2 16:42:26] Send cmd [Program:20002] OK
+[Debug] [2026-11-2 16:42:27] The value of Progress is 6
+[Debug] [2026-11-2 16:42:27] The value of Progress is 10
+[Debug] [2026-11-2 16:42:27] The value of Progress is 15
+[Debug] [2026-11-2 16:42:27] The value of Progress is 20
+[Debug] [2026-11-2 16:42:27] The value of Progress is 25
+[Debug] [2026-11-2 16:42:27] The value of Progress is 30
+[Debug] [2026-11-2 16:42:28] The value of Progress is 35
+[Debug] [2026-11-2 16:42:28] The value of Progress is 40
+[Debug] [2026-11-2 16:42:28] The value of Progress is 45
+[Debug] [2026-11-2 16:42:28] The value of Progress is 50
+[Debug] [2026-11-2 16:42:28] The value of Progress is 55
+[Debug] [2026-11-2 16:42:28] The value of Progress is 60
+[Debug] [2026-11-2 16:42:29] The value of Progress is 65
+[Debug] [2026-11-2 16:42:29] The value of Progress is 70
+[Debug] [2026-11-2 16:42:29] The value of Progress is 75
+[Debug] [2026-11-2 16:42:29] The value of Progress is 80
+[Debug] [2026-11-2 16:42:29] The value of Progress is 85
+[Debug] [2026-11-2 16:42:29] The value of Progress is 90
+[Debug] [2026-11-2 16:42:29] The value of Progress is 95
+[Debug] [2026-11-2 16:42:30] The value of Progress is 100
+[Debug] [2026-11-2 16:42:30] COMMAND[Program] execute successfully, takes 3.9 secs.
+[Debug] [2026-11-2 16:42:30] End to send programming cmd.
+[Debug] [2026-11-2 16:42:30] Log::Print : The done bit is 1
+[Debug] [2026-11-2 16:42:30] Log::Print : COMMAND[Program] execute successfully, takes 3.9 secs.
+[Debug] [2026-11-2 17:52:31] Begin to send programming cmd...
+[Debug] [2026-11-2 17:52:31] Send RPC:10
+[Debug] [2026-11-2 17:52:31] Begin to send program data.
+[Debug] [2026-11-2 17:52:31] End to send program data.
+[Debug] [2026-11-2 17:52:31] Send cmd [Program:20002] OK
+[Error] [2026-11-2 17:52:31] fail to exec Program cmd...
+[Debug] [2026-11-2 17:52:31] End to send programming cmd.
+[Error] [2026-11-2 17:52:31] MsgOut: JtagServer-0001: No PANGO USB CABLE II cable was found in system.
+[Error] [2026-11-2 17:52:31] MsgOut: JtagServer-0306: No devices detected while scanning the JTAG chain, failed detecting JTAG device chain.
+[Error] [2026-11-2 17:52:31] MsgOut: Configuration-0008: The command 'Program' execute fail.
+[Info] [2026-11-2 20:09:04] /***************************End Configration***************************/
